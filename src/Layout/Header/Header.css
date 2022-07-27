@@ -81,12 +81,13 @@
 }
 
 .link2 p {
-  color: #c4d0dc;
+  color: white;
   font-size: 1rem;
   display: flex;
   border: 1px solid white;
   justify-content: center;
   align-items: center;
+  background-color: #f97b6d;
 }
 .link2 p,
 .top-link {
@@ -97,7 +98,7 @@
 }
 .link2 p:hover,
 .top-link:hover {
-  background-color: #31333b;
+  background-color: transparent;
 }
 .desktop {
   display: block;

@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faCircleInfo,
-  faArrowUpRightFromSquare,
+  // faCircleInfo,
+  // faArrowUpRightFromSquare,
   faBars,
 } from "@fortawesome/free-solid-svg-icons";
 import logo from "../../Assets/logo.png";
@@ -62,7 +62,7 @@ function Header({ func }) {
         <img src={logo} className={"logo"} alt="" />
       </div>
       <div className="right-header">
-        <div className="link drop">
+        {/* <div className="link drop">
           <div className="top-link">
             <FontAwesomeIcon icon={faCircleInfo} />
             <p>$OP $0.0771 USD</p>
@@ -82,7 +82,7 @@ function Header({ func }) {
               <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
             </div>
           </div>
-        </div>
+        </div> */}
         <div onClick={() => setModal(true)} className="link2">
           <p>Connect Wallet</p>
         </div>

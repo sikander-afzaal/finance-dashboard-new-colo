@@ -115,7 +115,7 @@ function Sidebar({ open, func }) {
             <FontAwesomeIcon icon={faImagePortrait} />
             <p>Killer Whale Traits</p>
           </Link>
-          <a
+          {/* <a
             target={"blank"}
             href="https://pancakeswap.finance/swap?outputCurrency=0xd87fce0d8d6d8a38a2d808081fcfa79e78ba5a4a"
             className="row-link"
@@ -130,7 +130,7 @@ function Sidebar({ open, func }) {
           >
             <FontAwesomeIcon icon={faBook} />
             <p>Orca Docs</p>
-          </a>
+          </a> */}
         </div>
         <div className="bottom-sidebar">
           <a href="#">

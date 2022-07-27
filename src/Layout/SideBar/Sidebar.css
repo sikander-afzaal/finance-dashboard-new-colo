@@ -23,7 +23,7 @@
   width: 80%;
   display: grid;
   grid-template-columns: 20px 1fr;
-  color: #c4d1dc;
+  color: white;
   text-decoration: none;
   font-size: 1.2rem;
   border-radius: 30px;
@@ -45,14 +45,14 @@
 .active {
   border-color: #24dbaf10;
   background-color: transparent;
-  color: #24dbaf;
+  color: #f97b6d;
   box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.6);
 }
 .row-link:hover {
-  color: #24dbaf;
+  color: #f97b6d;
 }
 .active p {
-  color: #24dbaf;
+  color: #f97b6d;
 }
 .bottom-sidebar {
   display: flex;
@@ -67,7 +67,7 @@
   font-size: 1.4rem;
 }
 .bottom-sidebar a:hover {
-  color: #24dbaf;
+  color: #f97b6d;
   transform: scale(1.1);
 }
 .display {
