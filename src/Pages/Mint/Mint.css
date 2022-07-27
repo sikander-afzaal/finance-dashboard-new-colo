@@ -1,0 +1,140 @@
+.mint {
+  width: 100%;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-inline: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.flip {
+  margin-top: 2rem;
+  max-width: 340px;
+  object-fit: contain;
+}
+.mint h1 {
+  color: white;
+  font-size: 2.5rem;
+}
+.mint p {
+  font-size: 1.2rem;
+  color: white;
+  width: 100%;
+  margin: 10px 0rem;
+}
+.mint ul {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  list-style-position: inside;
+}
+.mint ul li {
+  font-size: 1rem;
+  color: white;
+}
+.additon-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.calc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.calc p {
+  font-size: 3rem;
+}
+.plus,
+.minus {
+  font-size: 2.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+.mint-btn {
+  padding: 11px 60px;
+  font-size: 1.3rem;
+  border-radius: 7px;
+  background-image: linear-gradient(170deg, #093d85 0%, #62af87 77%);
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.item_div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  height: 120px;
+  max-height: 120px;
+  margin-top: 1rem;
+}
+.item_div img {
+  max-width: 100px;
+  object-fit: contain;
+  opacity: 0;
+}
+.anim-left {
+  animation: left 0.35s ease-in-out 0.1s forwards;
+}
+.row-add {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  margin-top: 2rem;
+}
+@keyframes left {
+  from {
+    transform: translateX(-6rem);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0rem);
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 1030px) {
+  .mint {
+    padding-left: 2rem;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 640px) {
+  .mint {
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .mint ul {
+    align-items: center;
+  }
+  .mint ul li {
+    text-align: center;
+  }
+  .additon-div {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .row-add {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .mint-btn {
+    margin-top: 0px;
+  }
+}

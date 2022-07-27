@@ -1,0 +1,35 @@
+.view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.view h1 {
+  color: white;
+  font-size: 2rem;
+  width: 60%;
+}
+.view p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: white;
+  width: 70%;
+  margin-top: 1rem;
+}
+@media screen and (max-width: 900px) {
+  .view p {
+    width: 90%;
+  }
+  .view h1 {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .view h1 {
+    font-size: 1.8rem;
+  }
+}
