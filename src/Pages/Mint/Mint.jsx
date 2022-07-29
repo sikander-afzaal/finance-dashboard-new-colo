@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./Mint.css";
 import AnimatedPage from "../../Components/AnimatedPage";
 import gif from "../../Assets/gif.gif";
@@ -54,13 +54,15 @@ function Mint() {
         </div>
         <h1 style={{ marginTop: "20px" }}>Killerwhale Club NFTs</h1>
         <ul>
-          <li>20% reflections to holders </li>
-          <li>20% charity (Ocean plastic removal) </li>
-          <li>15% treasury (used to deepen $OP LP)</li>
-          <li>20% devfunds+marketing $OP </li>
-          <li>10% development +marketing Protoverse x Orca Fund:</li>
-          <li>15% play to earn developement</li>
+          <li> 20% reflections</li>
+          <li>10% sweep voted Projects</li>
+          <li>20% Community Wallet</li>
+          <li>10% lottery lucky draw</li>
+          <li>15% Marketing</li>
+          <li>18% Teamfunds + Development</li>
+          <li>7% Bottom of the Ocean Funds (For Sweeping native Floor)</li>
         </ul>
+
         <h1 style={{ marginTop: "20px" }}>NFT Pricing</h1>
         <p>Bonding Curve Price Model:</p>
         <ul>
