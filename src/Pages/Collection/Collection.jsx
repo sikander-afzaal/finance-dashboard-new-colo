@@ -23,7 +23,7 @@ function Collection() {
     <AnimatedPage>
       <div className="mint">
         <h1>Mint your killer whale</h1>
-        <p>2500 “killer whales”</p>
+        <p>250 “killer whales”</p>
         <p>1 of 3 collections released over the next 12 months</p>
         <p>
           Collect one of each to unlock your pass into our play to earn game
@@ -57,7 +57,7 @@ function Collection() {
         <button className="mint-btn">Grab Rewards</button>
         <h1 style={{ marginTop: "20px" }}>Killerwhale Club NFTs</h1>
         <ul>
-          <li> 20% reflections</li>
+          <li> 20% reflections to holders</li>
         </ul>
 
         <h1 style={{ marginTop: "20px" }}>NFT Pricing</h1>
