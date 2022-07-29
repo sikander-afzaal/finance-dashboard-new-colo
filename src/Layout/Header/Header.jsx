@@ -58,27 +58,6 @@ function Header({ func }) {
         <img src={logo} className={"logo"} alt="" />
       </div>
       <div className="right-header">
-        {/* <div className="link drop">
-          <div className="top-link">
-            <FontAwesomeIcon icon={faCircleInfo} />
-            <p>$OP $0.0771 USD</p>
-          </div>
-
-          <div className="dropdown">
-            <a
-              target={"blank"}
-              href="https://pancakeswap.finance/swap?outputCurrency=0xd87fce0d8d6d8a38a2d808081fcfa79e78ba5a4a"
-              className="drop-link"
-            >
-              <p>Buy on Pancake Swap</p>
-              <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-            </a>
-            <div className="drop-link">
-              <p>Chart</p>
-              <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-            </div>
-          </div>
-        </div> */}
         <div onClick={() => setModal(true)} className="link2">
           <p>Connect Wallet</p>
         </div>

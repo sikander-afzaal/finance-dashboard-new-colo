@@ -28,18 +28,6 @@ function Sidebar({ open, func }) {
   useEffect(() => {
     const path = window.location.pathname;
     switch (path) {
-      // case "/dashboard":
-      //   document.querySelector(".active").classList.remove("active");
-      //   document.querySelector(".dasboard-link").classList.add("active");
-      //   break;
-      // case "/calculator":
-      //   document.querySelector(".active").classList.remove("active");
-      //   document.querySelector(".calculator-link").classList.add("active");
-      //   break;
-      // case "/account":
-      //   document.querySelector(".active").classList.remove("active");
-      //   document.querySelector(".account-link").classList.add("active");
-      //   break;
       case "/":
         document.querySelector(".active").classList.remove("active");
         document.querySelector(".mint-link").classList.add("active");
@@ -71,30 +59,6 @@ function Sidebar({ open, func }) {
       <div className={`sidebar ${open ? "open-sidebar" : ""}`}>
         <img src={logo} className={"display logo"} alt="" />
         <div className="top-sidebar">
-          {/* <Link
-            to={"/"}
-            onClick={clickHandler}
-            className="row-link active dashboard-link"
-          >
-            <FontAwesomeIcon icon={faLayerGroup} />
-            <p>Dashboard</p>
-          </Link>
-          <Link
-            to={"/account"}
-            onClick={clickHandler}
-            className="row-link account-link"
-          >
-            <FontAwesomeIcon icon={faCircleUser} />
-            <p>Account</p>
-          </Link>
-          <Link
-            to={"/calculator"}
-            onClick={clickHandler}
-            className="row-link calculator-link"
-          >
-            <FontAwesomeIcon icon={faCalculator} />
-            <p>Calculator</p>
-          </Link> */}
           <Link
             to={"/"}
             onClick={clickHandler}
@@ -127,22 +91,6 @@ function Sidebar({ open, func }) {
             <FontAwesomeIcon icon={faImagePortrait} />
             <p>Mint Eth Collection</p>
           </Link>
-          {/* <a
-            target={"blank"}
-            href="https://pancakeswap.finance/swap?outputCurrency=0xd87fce0d8d6d8a38a2d808081fcfa79e78ba5a4a"
-            className="row-link"
-          >
-            <FontAwesomeIcon icon={faBolt} />
-            <p>Pancake Swap</p>
-          </a>
-          <a
-            target={"blank"}
-            href="https://orcaprotocol.gitbook.io/orcaprotocolbsc/"
-            className="row-link"
-          >
-            <FontAwesomeIcon icon={faBook} />
-            <p>Orca Docs</p>
-          </a> */}
         </div>
         <div className="bottom-sidebar">
           <a href="#">
