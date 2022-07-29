@@ -15,8 +15,8 @@ body {
 .bottom-App {
   display: flex;
   align-items: center;
-  max-height: calc(100vh - 100px);
-  height: calc(100vh - 100px);
+  max-height: calc(100vh - 130px);
+  height: calc(100vh - 130px);
   justify-content: center;
   width: 100%;
 }
