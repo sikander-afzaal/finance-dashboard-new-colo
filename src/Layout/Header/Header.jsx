@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import logo from "../../Assets/logo.jpeg";
+import logo from "../../Assets/logo.png";
 import connect1 from "../../Assets/connect1.svg";
 import connect2 from "../../Assets/connect2.svg";
 import connect3 from "../../Assets/connect3.svg";

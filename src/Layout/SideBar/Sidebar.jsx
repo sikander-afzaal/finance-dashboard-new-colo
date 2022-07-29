@@ -18,7 +18,7 @@ import {
   faMedium,
 } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
-import logo from "../../Assets/logo.jpeg";
+import logo from "../../Assets/logo.png";
 function Sidebar({ open, func }) {
   const clickHandler = (e) => {
     document.querySelector(".active").classList.remove("active");
