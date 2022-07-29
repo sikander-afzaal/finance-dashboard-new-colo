@@ -18,7 +18,7 @@ import {
   faMedium,
 } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
-import logo from "../../Assets/logo.png";
+import logo from "../../Assets/logo.jpeg";
 function Sidebar({ open, func }) {
   const clickHandler = (e) => {
     document.querySelector(".active").classList.remove("active");
@@ -51,6 +51,10 @@ function Sidebar({ open, func }) {
       case "/traits":
         document.querySelector(".active").classList.remove("active");
         document.querySelector(".traits-link").classList.add("active");
+        break;
+      case "/collection":
+        document.querySelector(".active").classList.remove("active");
+        document.querySelector(".collection-link").classList.add("active");
         break;
 
       default:
@@ -114,6 +118,14 @@ function Sidebar({ open, func }) {
           >
             <FontAwesomeIcon icon={faImagePortrait} />
             <p>Killer Whale Traits</p>
+          </Link>
+          <Link
+            to={"/collection"}
+            onClick={clickHandler}
+            className="row-link collection-link"
+          >
+            <FontAwesomeIcon icon={faImagePortrait} />
+            <p>Mint Eth Collection</p>
           </Link>
           {/* <a
             target={"blank"}

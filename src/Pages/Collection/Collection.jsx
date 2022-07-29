@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import "./Mint.css";
+import "./Collection.css";
 import AnimatedPage from "../../Components/AnimatedPage";
 import gif from "../../Assets/gif.gif";
 import item from "../../Assets/orca.png";
-function Mint() {
+function Collection() {
   const [array, setArray] = useState([1]);
   const clickHandlerMinus = (e) => {
     if (array.length <= 10 && array.length >= 0) {
@@ -52,29 +52,25 @@ function Mint() {
             );
           })}
         </div>
-
+        <h1 style={{ marginTop: "20px" }}>Collect your reflections</h1>
+        <p>Reflections in ETH: 0</p>
+        <button className="mint-btn">Grab Rewards</button>
         <h1 style={{ marginTop: "20px" }}>Killerwhale Club NFTs</h1>
         <ul>
           <li> 20% reflections</li>
-          <li>10% sweep voted Projects</li>
-          <li>20% Community Wallet</li>
-          <li>10% lottery lucky draw</li>
-          <li>15% Marketing</li>
-          <li>18% Teamfunds + Development</li>
-          <li>7% Bottom of the Ocean Funds (For Sweeping native Floor)</li>
         </ul>
 
         <h1 style={{ marginTop: "20px" }}>NFT Pricing</h1>
         <p>Bonding Curve Price Model:</p>
         <ul>
-          <li>0-50 # Marketing</li>
-          <li>50-1000 # 0.11 bnb</li>
-          <li>1000-1750 # 0.22 bnb</li>
-          <li>1750-2500 # 0.33 bnb</li>
+          <li>0-10 # Marketing</li>
+          <li>11-125 # 0.11 eth</li>
+          <li>126-200 # 0.22 eth</li>
+          <li>201-250 # 0.33 eth</li>
         </ul>
       </div>
     </AnimatedPage>
   );
 }
 
-export default Mint;
+export default Collection;

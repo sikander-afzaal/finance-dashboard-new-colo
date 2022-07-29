@@ -10,6 +10,7 @@ import { AnimatePresence } from "framer-motion";
 import Mint from "./Pages/Mint/Mint";
 import View from "./Pages/View/View";
 import Traits from "./Pages/Traits/Traits";
+import Collection from "./Pages/Collection/Collection";
 function App() {
   const [open, setOpen] = useState(false);
   const openHeader = (val) => {
@@ -30,6 +31,7 @@ function App() {
               <Route path="/" element={<Mint />}></Route>
               <Route path="/view" element={<View />}></Route>
               <Route path="/traits" element={<Traits />}></Route>
+              <Route path="/collection" element={<Collection />}></Route>
             </Routes>
           </AnimatePresence>
         </div>
