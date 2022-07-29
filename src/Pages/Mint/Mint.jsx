@@ -71,6 +71,11 @@ function Mint() {
           <li>1000-1750 # 0.22 bnb</li>
           <li>1750-2500 # 0.33 bnb</li>
         </ul>
+        <h1 style={{ marginTop: "20px" }}>Mint ETH Collection</h1>
+        {/* <p></p> */}
+        <ul>
+          <li>20% reflections to holders</li>
+        </ul>
       </div>
     </AnimatedPage>
   );
